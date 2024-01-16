@@ -131,3 +131,15 @@ transition: transform .2s;
         /* background-color: white; */
     }
 }
+
+
+@media only screen and (width < 992px) {
+    .custom-container {
+        max-width: 900px;
+    }
+    .mobile-view{
+        display: flex;
+        align-items: center;
+        justify-content: space-evenly;
+    }
+}
