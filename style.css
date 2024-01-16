@@ -183,7 +183,9 @@ body {
 
 .button:hover {
     background-color: white;
-    color: black;
+    a{
+        color: black;
+    }
 }
 
 .button-cover {
@@ -210,7 +212,11 @@ body {
     }
 
     .content {
-        margin: 180px 50px 0 50px;
-        ;
+        margin: 5
+        0px 50px 0 50px;
+        
+    }
+    .top-button{
+        margin-top: 150px;
     }
 }
