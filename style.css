@@ -1,0 +1,133 @@
+.image{
+border-radius:50%;
+/* height:400px; */
+/* margin-left:20%; */
+margin-top:20px;
+margin-bottom:20px;
+height: 250px;
+transition: transform .2s;
+}
+.image:hover{
+    transform: scale(1.03);
+    filter: drop-shadow(5px 5px 5px #2F2F2F);
+}
+
+#part1{
+	margin-top:50px;
+	
+}
+.h1
+{
+	margin-left:auto;
+	margin-right:auto;
+	text-align:center;
+}
+.pic1{
+	margin-top:60px;
+	margin-left:80px;
+	height:100px;
+	border-radius:50%;
+	
+}
+.pic2{
+	margin-top:60px;
+	margin-left:80px;
+	height:100px;
+	border-radius:50%;
+	
+}
+.pic3{
+	margin-top:60px;
+	margin-left:80px;
+	height:100px;
+	border-radius:50%;
+	
+}
+.p{
+	margin-left:auto;
+	margin-right:auto;
+	text-align:center;
+}
+#navBar ul{
+   
+    padding: 0;
+    margin: 0;
+    position: sticky;
+    position: -webkit-sticky;
+    top: 0;
+}
+
+.head-data{
+    display: flex;
+    align-items: center;
+    margin: 20px 5px;
+    padding: 10px;
+    border-radius: 10px;
+    cursor: pointer;
+    transition: transform .2s;
+    font-weight: 600;
+    text-decoration: none;
+    color: white;
+	height: 30px;
+}
+.head-data:hover{
+    transform: scale(1.07);
+    filter: drop-shadow(5px 5px 5px #2F2F2F);
+	color: black;
+}
+
+.custom-nav{
+	top: 0;
+    border-width: 0 0 1px;
+	position: fixed;
+    right: 0;
+    left: 0;
+    z-index: 1030;
+	height: 60px;
+}
+
+.content {
+    margin: 50px 50px 0 50px;
+    background-color: white;
+    padding: 20px;
+    height: 100;
+    border-radius: 10px;
+    transition: transform .2s;
+}
+.content:hover{
+    transform: scale(1.03);
+    filter: drop-shadow(5px 5px 5px #2F2F2F);
+}
+
+.section1{
+	margin: 20px;
+}
+
+.ul-class{
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+}
+.ul-class li{
+    margin: 7px 0;
+}
+
+.ul-content{
+	display: flex;
+    align-items: center;
+    justify-content: flex-end;
+}
+
+.heading{
+    height: 60px;
+    align-items: center;
+    color: black;
+    background-color: #498FDF;
+    display: flex;
+    justify-content: space-evenly;
+    padding: 0 10px 5px;
+    :hover{
+        color: black;
+        /* background-color: white; */
+    }
+}
