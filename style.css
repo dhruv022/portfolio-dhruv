@@ -17,7 +17,7 @@
     margin-top: 10px;
 }
 
-#part11{
+#part11 {
     margin-top: 10px;
     border: 1px solid black;
     border-radius: 10px;
@@ -183,7 +183,8 @@ body {
 
 .button:hover {
     background-color: white;
-    a{
+
+    a {
         color: black;
     }
 }
@@ -206,17 +207,29 @@ body {
     }
 }
 
+.skills {
+    border: 1px solid black;
+    padding: 2px 4px;
+    border-radius: 5px;
+    margin: 5px;
+    font-weight: 500;
+}
+
+.skills-list li {
+    margin-top: 15px;
+}
+
 @media only screen and (width < 992px) {
     .custom-container {
         max-width: 900px;
     }
 
     .content {
-        margin: 5
-        0px 50px 0 50px;
-        
+        margin: 5 0px 50px 0 50px;
+
     }
-    .top-button{
+
+    .top-button {
         margin-top: 150px;
     }
 }
